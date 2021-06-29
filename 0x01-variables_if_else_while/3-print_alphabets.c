@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 /**
- *
- * main - 
- *
- * Return:
- */
-int main (void)
+* main - Prints alphabet in lowercase and uppercase.
+*
+* Return: 0
+*/
+int main(void)
 {
 	int i = 97;
+	int I = 65;
+
 	while (i <= 122)
 	{
 		putchar (i);
 		i++;
 	}
 
-	int i = 65;
-	while (i <= 90)
+	while (I <= 90)
 	{
-		putchar(i);
-		i++;
+		putchar(I);
+		I++;
 	}
-	return (0)
+	return (0);
 }
