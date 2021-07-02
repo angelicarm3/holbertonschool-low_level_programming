@@ -6,18 +6,16 @@
 */
 void times_table(void)
 {
-	int n = 48, m, p;
+	int i, j;
 
-	while (n <= 57)
+	for (i = 48; i <= 57; i++)
 	{
-		m = 49;
-		while (m <= 57)
+		for (j = 48; j <= 57; j++)
 		{
-			p = n * m;
-			_putchar(p);
-			p++;
+			_putchar(i*j);
+			_putchar(',');
+			_putchar(' ');
 		}
-		m++;
+		_putchar('\n');
 	}
-	n++;
 }
