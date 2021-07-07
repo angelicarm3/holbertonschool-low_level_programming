@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
-* main - Prints numbers form 1-100, for multiples of 3 prints Fizz, for multiples of 5 prints Buzz, for multiples of 3 and 5 prints FizzBuzz and a new line.
+* main - Prints numbers form 1-100, for multiples of 3 prints Fizz, for \
+* multiples of 5 prints Buzz, for multiples of 3 and 5 prints FizzBuzz and a \
+* new line.
 *
 * Return: 0
 */
@@ -16,16 +18,17 @@ int main(void)
 		}
 		else if (a % 5 == 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (a % 3 == 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else
 		{
-			printf("%d ", a);
+			printf("%d", a);
 		}
+		printf(" ");
 		a++;
 	}
 	printf("\n");
