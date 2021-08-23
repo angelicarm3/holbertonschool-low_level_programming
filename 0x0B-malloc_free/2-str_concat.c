@@ -5,7 +5,8 @@
 * @s1: First string
 * @s2: Second string
 *
-* Return: Pointer to a new NULL ending string containig s1 followed by s2 or NULL on failure
+* Return: Pointer to a new NULL ending string containig s1/
+* followed by s2 or NULL on failure
 */
 char *str_concat(char *s1, char *s2)
 {
